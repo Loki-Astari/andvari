@@ -12,6 +12,7 @@
     },
     "license": "MIT",
     "dependencies": {
+        "Promise": "^1.0.5",
         "argparse": "^1.0.10",
         "chokidar": "^2.0.2",
         "fs": "0.0.1-security",
