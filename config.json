@@ -1,4 +1,5 @@
 {
     "site": "http://yourSite.com",
-    "comment": "disque"
+    "comment": "disque",
+    "excerptSize": 250
 }
