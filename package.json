@@ -15,12 +15,17 @@
         "Promise": "^1.0.5",
         "argparse": "^1.0.10",
         "chokidar": "^2.0.2",
+        "ejs": "^2.5.8",
         "fs": "0.0.1-security",
         "glob": "^7.1.2",
+        "gray-matter": "^3.1.1",
         "ncp": "^2.0.0",
+        "nib": "^1.1.2",
+        "node-stylus-require": "^1.1.0",
         "path": "^0.12.7",
         "rimraf": "^2.6.2",
         "serve": "^6.5.3",
+        "showdown": "^1.8.6",
         "simple-git": "^1.92.0"
     }
 }
