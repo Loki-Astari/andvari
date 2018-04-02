@@ -5,6 +5,5 @@ module.exports = function(source, layout) {
         link = '/' + source.replace(/\.md$/, '/index.html')
     }
     link = link.toLowerCase().replace(/\+/g, ' plus').replace(/(\d\d\d\d)-(\d\d)-(\d\d)-/, '$1/$2/$3/').replace(/ /g, '-').replace(/-+/g, '-');
-    console.log('PermLink: ' + link);
     return link;
 }
