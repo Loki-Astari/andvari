@@ -1,10 +1,10 @@
 
-module.exports = function(post) {
-    var dateTime = new Date(post.date);
-    var dateFormat = require('dateformat');
-    if (post.layout == 'post') {
-        var name = post.source;
-        return '/' + name.replace(/\.md$/, '').toLowerCase().replace(/\+/g, ' plus').replace(/(\d\d\d\d)-(\d\d)-(\d\d)-/, '$1/$2/$3/').replace(/ /g, '-').replace(/-+/g, '-') + '/index.html';
+module.exports = function(source, layout) {
+    var link = '/' + source.replace(/\.md$/, '.html');
+    if (layout == 'post') {
+        link = '/' + source.replace(/\.md$/, '/index.html')
     }
-    return  post.source.replace(/\.md$/, '.html');
+    link = link.toLowerCase().replace(/\+/g, ' plus').replace(/(\d\d\d\d)-(\d\d)-(\d\d)-/, '$1/$2/$3/').replace(/ /g, '-').replace(/-+/g, '-');
+    console.log('PermLink: ' + link);
+    return link;
 }
