@@ -58,6 +58,7 @@ But you can use any github repository as the site.
 
 1. Start the local server
 
+      > &gt; cd &lt;Location to Create Your Blog&gt;/MyBlog  
       > &gt; andvari server  
       > server running on https://localhost:4000  
       
