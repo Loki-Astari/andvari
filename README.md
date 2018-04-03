@@ -89,8 +89,8 @@ I use the domain name 'LokiAstari.com'. To make this autmatically work with gith
 1. Add information to github Pages so they know where to root your page.
 
       > &gt; cd &lt;Location to Create Your Blog&gt;/MyBlog  
-      > &gt; echo "lokiastari.com" > source/CNAME
-      > &gt; andvari deploy 
+      > &gt; echo "lokiastari.com" > source/CNAME  
+      > &gt; andvari deploy   
       
 2. Configuring A records with your DNS provider (godaddy/joker etc...)
 
