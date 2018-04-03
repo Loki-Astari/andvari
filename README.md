@@ -37,6 +37,16 @@ But you can use any github repository as the site.
 5. Look at your Blog
 
       https://&lt;GitHubUserName&gt;.github.io  
+      
+6. Now that you have seen it works change up the config file
+
+      > &gt; vi config.json
+      
+This file contains some basic information you can edit. Also you should check the theme config. If you want to override any values just place the the new value in your local config.h. Check the themes documentation (README.md) file for information about the theme and how changes to the configuration affect the site.
+
+      > &gt; andvari deply
+      
+The new site should be available shortly
 
 ## Create a new post
 
@@ -71,3 +81,18 @@ But you can use any github repository as the site.
       > &gt; andvari build  
 
 Andvari build generates the site without deploying it to github. Any changes are automatically picked up by the server. Simply refresh the web page.
+
+## Have a domain name and want to use github pages.
+
+I use the domain name 'LokiAstari.com'. To make this autmatically work with github pages.
+
+1. Add information to github Pages so they know where to root your page.
+
+      > &gt; cd &lt;Location to Create Your Blog&gt;/MyBlog  
+      > &gt; echo "lokiastari.com" > source/CNAME
+      > &gt; andvari deploy 
+      
+2. Configuring A records with your DNS provider (godaddy/joker etc...)
+
+You should make your domain use the IP address `192.30.252.153` primary and/or `192.30.252.154` secondary.  
+See [setting up an apex domain](https://help.github.com/articles/setting-up-an-apex-domain/)
