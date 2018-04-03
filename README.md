@@ -8,27 +8,27 @@ It was relatively simple to build a site generator in Javascript (though I admit
 
 ## Create a new site
 
-This description is to build a GitHub Pages site.  
-But you can use any github repository as the site.
+This description is to build a GitHub Pages site. But you can use any github repository as the site.
+
+In the description below I will use my own site details. You should change "Loki-Astari" to your github user name.
 
 1. Create a "Git Hub Pages repo"
 
       > [Create-Repo](https://github.com/new)  
-      > Use the 'Repository name': &lt;GitHubUserName&gt;.github.io  
-      > ie. for me this is [loki-astari.github.io](https://github.com/Loki-Astari/loki-astari.github.io).  
+      > Use the 'Repository name': loki-astari.github.io  
 
 2. Install Andvari
 
-      > &gt; cd &lt;Location Where You Install Stuff&gt;  
+      > &gt; cd Location/Where/You/Install/Stuff  
       > &gt; git clone git@github.com:Loki-Astari/andvari.git  
       > &gt; export PATH=${PATH}:$(pwd)/andvari/bin  
       
 3. Create a Blog Directory
 
-      > &gt; cd &lt;Location to Create Your Blog&gt;  
+      > &gt; cd Location/to/Create/Your/Blog  
       > &gt; mkdir MyBlog  
       > &gt; cd MyBlog  
-      > &gt; andvari init -r https://github.com/GitHubUserName/GitHubUserName.github.io  
+      > &gt; andvari init -r https://github.com/Loki-Astari/loki-astari.github.io  
       
 4. Deploy the Default Blog
 
@@ -36,7 +36,7 @@ But you can use any github repository as the site.
       
 5. Look at your Blog
 
-      https://&lt;GitHubUserName&gt;.github.io  
+      https://loki-astari.github.io  
       
 6. Now that you have seen it works change up the config file
 
@@ -52,7 +52,7 @@ The new site should be available shortly
 
 1. Create a new article
 
-      > &gt; cd &lt;Location to Create Your Blog&gt;/MyBlog  
+      > &gt; cd Location/to/Create/Your/Blog/MyBlog  
       > &gt; andvari post blog "My First Post"  
       > Created: source/blog/2018-04-02-my-first-post.md  
       
@@ -68,7 +68,7 @@ The new site should be available shortly
 
 1. Start the local server
 
-      > &gt; cd &lt;Location to Create Your Blog&gt;/MyBlog  
+      > &gt; cd Location/to/Create/Your/Blog/MyBlog  
       > &gt; andvari server  
       > server running on https://localhost:4000  
       
@@ -88,7 +88,7 @@ I use the domain name 'LokiAstari.com'. To make this autmatically work with gith
 
 1. Add information to github Pages so they know where to root your page.
 
-      > &gt; cd &lt;Location to Create Your Blog&gt;/MyBlog  
+      > &gt; cd Location/to/Create/Your/Blog/MyBlog  
       > &gt; echo "lokiastari.com" > source/CNAME  
       > &gt; andvari deploy   
       
