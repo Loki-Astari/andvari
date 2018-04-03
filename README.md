@@ -44,7 +44,9 @@ In the description below I will use my own site details. You should change "Loki
       
 This file contains some basic information you can edit. Also you should check the theme config. If you want to override any values just place the the new value in your local config.h. Check the themes documentation (README.md) file for information about the theme and how changes to the configuration affect the site.
 
-      > &gt; andvari deply
+7. Re-Run the deploy
+
+      > &gt; andvari deploy
       
 The new site should be available shortly
 
