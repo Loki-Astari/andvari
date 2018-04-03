@@ -21,7 +21,7 @@ But you can use any github repository as the site.
 
       > &gt; cd &lt;Location Where You Install Stuff&gt;  
       > &gt; git clone git@github.com:Loki-Astari/andvari.git  
-      > &gt; export PATH=${PATH}:$(cwd)/andvari/bin  
+      > &gt; export PATH=${PATH}:$(pwd)/andvari/bin  
       
 3. Create a Blog Directory
 
