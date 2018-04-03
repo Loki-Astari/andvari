@@ -28,7 +28,7 @@ But you can use any github repository as the site.
       > &gt; cd &lt;Location to Create Your Blog&gt;  
       > &gt; mkdir MyBlog  
       > &gt; cd MyBlog  
-      > &gt; andvari init -r https://github.com/<GitHubUserName>/<GitHubUserName>.github.io  
+      > &gt; andvari init -r https://github.com/GitHubUserName/GitHubUserName.github.io  
       
 4. Deploy the Default Blog
 
