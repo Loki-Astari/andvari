@@ -26,6 +26,7 @@
         "rimraf": "^2.6.2",
         "serve": "^6.5.3",
         "showdown": "^1.8.6",
-        "simple-git": "^1.92.0"
+        "simple-git": "^1.92.0",
+        "yamljs": "^0.3.0"
     }
 }
