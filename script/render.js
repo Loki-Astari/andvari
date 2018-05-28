@@ -2,6 +2,8 @@
 module.exports = function(post, size) {
     var ejs = require('ejs');
     var showdown  = require('showdown');
+    showdown.setOption('tables', true);
+    showdown.setFlavor('github');
     var converter = new showdown.Converter();
 
     var render = (size != -1)
