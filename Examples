@@ -1,0 +1,27 @@
+Examples:
+
+Adding Documentation to an existing project:
+
+    > andvari init docSource --dest docs -t "My Project" -d "Some Text" --themeRepo git@github.com:Loki-Astari/andvari-theme-documentation.git --themeName documentation
+
+
+        My Project:                             Placed in the config.json as the title.
+        Some Text:                              Placed in the config.json as the description.
+        docSource:                              The directory that will hold the documentation.
+        docs:                                   The directory where the docs will be built into.
+        andvari-theme-documentation.git:        The theme used for the documentation.
+        documentation:                          The name used in the theme directory for the theme.
+
+Creating a Blog:
+
+    > andvari init Blog --dest git@github.com:Loki-Astari/loki-astari.github.io.git -t "My Blog" -d "Some Text" --themeRepo git@github.com:Loki-Astari/andvari-theme-landscape.git --themeName landscape
+
+
+        My Blog:                                Placed in the config.json as the title.
+        Some Text:                              Placed in the config.json as the description.
+        Blog:                                   Local directory we will checkout the repository.
+        Loki-Astari/loki-astari.github.io.git   The blog repository.
+        andvari-theme-landscape.git:            The theme used for the documentation.
+        landscape:                              The name used in the theme directory for the theme.
+
+
