@@ -2,7 +2,7 @@ Examples:
 
 Adding Documentation to an existing project:
 
-    > andvari init docSource --dest docs -t "My Project" -d "Some Text" --themeRepo git@github.com:Loki-Astari/andvari-theme-documentation.git --themeName documentation
+    > andvari init docSource --dest docs -t "My Project" -d "Some Text" --themeRepo https://github.com/Loki-Astari/andvari-theme-documentation.git --themeName documentation
 
 
         My Project:                             Placed in the config.json as the title.
@@ -14,7 +14,7 @@ Adding Documentation to an existing project:
 
 Creating a Blog:
 
-    > andvari init Blog --dest git@github.com:Loki-Astari/loki-astari.github.io.git -t "My Blog" -d "Some Text" --themeRepo git@github.com:Loki-Astari/andvari-theme-landscape.git --themeName landscape
+    > andvari init Blog --dest https://github.com/Loki-Astari/loki-astari.github.io.git -t "My Blog" -d "Some Text" --themeRepo https://github.com/Loki-Astari/andvari-theme-landscape.git --themeName landscape
 
 
         My Blog:                                Placed in the config.json as the title.
